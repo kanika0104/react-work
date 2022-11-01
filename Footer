@@ -1,0 +1,56 @@
+import React, { Fragment } from 'react';
+import { FaFacebookSquare} from "react-icons/fa";
+import { FaTwitterSquare} from "react-icons/fa";
+import {FaLinkedin} from "react-icons/fa";
+import {FaInstagram} from "react-icons/fa";
+export default function Footer() {
+  return (
+    <Fragment>
+        <div className="container">
+            <div className="row">
+            <div className="col-sm-3">
+                <h5>Company Name</h5>
+                <p>A company, abbreviated as co., is a legal entity representing an association of people, whether natural, legal or a mixture of both, with a specific objective. Company members share a common purpose and unite to achieve specific</p>
+            </div>
+            <div className="col-sm-3">
+                <h5>Products</h5>
+                
+                    <h6>MdBootstrap</h6>
+                    <h6>MdBootstrap</h6>
+                    <h6>MdBootstrap</h6>
+                    <h6>MdBootstrap</h6>
+                    <h6>MdBootstrap</h6>
+            
+            </div>
+            <div className="col-sm-3">
+                <h5>Useful Links</h5>
+                <h6>MdBootstrap</h6>
+                    <h6>MdBootstrap</h6>
+                    <h6>MdBootstrap</h6>
+                    <h6>MdBootstrap</h6>
+                    <h6>MdBootstrap</h6>
+            </div>
+            <div className="col-sm-3">
+                <h5>Contacts</h5>
+                <h6>MdBootstrap</h6>
+                    <h6>MdBootstrap</h6>
+                    <h6>MdBootstrap</h6>
+                    <h6>MdBootstrap</h6>
+                    <h6>MdBootstrap</h6>
+            </div>
+            </div><hr/>
+            <div className="row">
+                <div className="col-sm-10">Copyright © 2022 Progressive Education Foundation. All Rights Reserved. Designed By SyStos Technology</div>
+                <div className="col-sm-2 SocialIcon">
+                    <ul>
+                        <li><FaFacebookSquare/></li>
+                        <li><FaTwitterSquare/></li>
+                        <li><FaLinkedin/></li>
+                        <li><FaInstagram/></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </Fragment>
+  )
+}
